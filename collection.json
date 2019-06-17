@@ -6,6 +6,12 @@
       "description": "Create an Ionic page.",
       "schema": "./schematics/page/schema.json"
     },
+    "form-page": {
+      "aliases": ["pg"],
+      "factory": "./schematics/form",
+      "description": "Create an Ionic Form page.",
+      "schema": "./schematics/form/schema.json"
+    },
     "class": {
       "aliases": ["cl"],
       "extends": "@schematics/angular:class"
